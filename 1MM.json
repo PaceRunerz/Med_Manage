@@ -1,0 +1,8 @@
+{
+  "name": "Vitamin D",
+  "batch": "VD12345",
+  "stock": 100,
+  "price": 10.99,
+  "manufacturer": "NutriHealth",
+  "expiry": "2025-06-30"
+}
