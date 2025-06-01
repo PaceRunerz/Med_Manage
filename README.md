@@ -39,24 +39,18 @@ A full-stack pharmacy management system with inventory control, sales tracking, 
 
 ## Project Structure 📁
 med-manage/
-├── public/ # Frontend assets
-│ ├── css/ # Custom styles
-│ ├── js/ # Client-side scripts
-│ ├── bills/ # Generated PDF invoices
-│ ├── index.html # Admin dashboard
-│ └── login.html # Login page
+├── public/            # Frontend files
+│   ├── index.html     # Admin Dashboard
+│   ├── login.html     # Login Page (This file)
+│   └── logo.png       # Pharmacy Logo
 ├── backend/
-│ ├── config/ # DB configuration
-│ ├── controllers/ # Business logic
-│ ├── models/ # Database models
-│ ├── routes/ # API endpoints
-│ ├── utils/ # PDF generator
-│ ├── server.js # Main server file
-│ └── package.json
-├── data/ # Sample data
-│ ├── 1MM.json # Medicine data
-│ └── 1PO.json # Order data
-└── README.md # Documentation
+│   ├── server.js      # Node.js server
+│   ├── package.json   # Dependencies
+│   └── package-lock.json
+├── data/
+│   ├── 1MM.json       # Medicine data
+│   └── 1PO.json       # Pharmacy orders
+└── README.md          # Project documentation
 
 
 ## Installation Guide 🚀
