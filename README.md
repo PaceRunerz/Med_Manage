@@ -59,3 +59,10 @@ med-manage/
    ```bash
    git clone https://github.com/yourusername/med-manage.git
    cd med-manage
+
+Start the server:
+node server.js
+
+Expected output:
+Server running on http://localhost:5001
+Connected to MongoDB
